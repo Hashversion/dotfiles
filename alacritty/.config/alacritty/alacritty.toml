@@ -1,0 +1,47 @@
+[colors.bright]
+black = "0x676e95"
+blue = "0x91ddff"
+cyan = "0xaaffe4"
+green = "0xceffab"
+magenta = "0xc991e1"
+red = "0xff92d0"
+white = "0xf7f7fb"
+yellow = "0xffe585"
+
+[colors.normal]
+black = "0x1a1b26"
+blue = "0x7aa2f7"
+cyan = "0x4cbf99"
+green = "0x9ece6a"
+magenta = "0xd57bff"
+red = "0xf7768e"
+white = "0xd9d7ce"
+yellow = "0xe0af68"
+
+[colors.primary]
+background = "#0d1117"
+foreground = "#afb8c1"
+
+[cursor]
+style.shape = "Beam"
+style.blinking = "On"
+
+[font]
+size = 12
+
+[font.normal]
+family = "GeistMono Nerd Font"
+# family = "Geist Mono"
+style = "Regular"
+
+[window]
+decorations = "full"
+opacity = 0.98
+
+[window.dimensions]
+columns = 120
+lines = 30
+
+[window.padding]
+x = 8
+y = 8
