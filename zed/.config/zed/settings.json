@@ -7,12 +7,16 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "preferred_line_length": 110,
+  "minimap": {
+    "show": "never"
+  },
+  "buffer_font_size": 12.0,
+  "buffer_font_family": "CommitMonoVazen",
   "icon_theme": "Symbols Icon Theme",
   "vim_mode": true,
   "ui_font_size": 14,
-  "buffer_font_size": 14,
-  "ui_font_family": "JetBrainsMono Nerd Font",
-  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_family": "Open Sauce Sans",
   "soft_wrap": "editor_width",
   "show_edit_predictions": false,
   "cursor_blink": false,
@@ -25,14 +29,17 @@
   "scrollbar": {
     "show": "never"
   },
+  "centered_layout": {
+    "left_padding": 0.4,
+    "right_padding": 0.4
+  },
   "indent_guides": {
+    "background_coloring": "disabled",
+    "coloring": "fixed",
+    "line_width": 1,
     "enabled": true
   },
-  "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "Min Dark (Solid)"
-  },
+  "theme": "Min Dark (Solid)",
   "toolbar": {
     "breadcrumbs": true,
     "quick_actions": false,
@@ -43,7 +50,9 @@
     "diagnostics": false
   },
   "project_panel": {
-    "indent_size": 14
+    "indent_size": 16.0,
+    "entry_spacing": "comfortable",
+    "hide_gitignore": false
   },
   "experimental.theme_overrides": {
     "editor.document_highlight.bracket_background": "#ffffff00"
